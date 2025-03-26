@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {
+	height: 100vh;
+}
+
+main {
+	height: 100vh;
+	background-image: url('https://i.gifer.com/J4o.gif');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+article {
+	height: 200px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 2px 2px 20px red;
+	width: 30%;
+	background-color: rgba(256, 256, 256, 0.1);
+}
+
+article:hover {
+	box-shadow: 2px 2px 20px blue;
+}
