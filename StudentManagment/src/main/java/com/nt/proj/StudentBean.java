@@ -6,7 +6,6 @@ import java.io.Serializable;
 public class StudentBean implements Serializable{
 	private String rollNo,name,course,email;
 	private MarkBean mk;
-// Rohit
 	public String getRollNo() {
 		return rollNo; 
 	}
